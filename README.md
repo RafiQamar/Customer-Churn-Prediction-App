@@ -2,6 +2,13 @@
 
 ## Overview
 This project is a Machine Learning-based web application built using Streamlit to predict customer churn. The model is trained on a dataset from IBM Sample Data Sets, which includes customer demographics, account information, and services used. The project aims to help businesses analyze customer behavior and develop focused retention strategies.
+###
+
+<div align="center">
+  <img src="https://github.com/RafiQamar/Customer-Churn-Prediction-App/blob/main/Customer%20Churn%20Prediction%20App.gif?raw=true" height="300" alt="Customer Churn prediction app" />
+</div>
+
+###
 
 ## Dataset Information
 The dataset includes the following information:
