@@ -69,6 +69,8 @@ raw_input = pd.DataFrame({'SeniorCitizen' : [senior_citizen],
 for col in l:
     raw_input[col] = encoder[col].transform(raw_input[col])
 
+raw_input[num_col] = scaler.transform(raw_input[num_col])
+
 
 if st.button('Predict: Will this customer churn?'):
     pred = model.predict(raw_input)
